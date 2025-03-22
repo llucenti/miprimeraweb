@@ -1,0 +1,99 @@
+		h1 {
+			color: #6D98BA;
+			font-size: 76px;
+			font-family: sans-serif;
+			text-align:center;
+			padding: 32px 32px 32px 0;
+		}
+		
+		p{
+			text-align:justify;
+			
+		} 
+		
+		#contacto {
+			text-align:center;
+		}
+		
+		h2 {
+			color: #6D98BA;
+			font-family: sans-serif;
+		}
+		
+		img {
+		width: 300px;
+		}
+
+		a{
+		color:red;
+		font-family: sans-serif;
+		text-decoration: underline 3px solid #C17767;
+		font-weight: 'Strong';
+		}
+		
+		a:visited{
+			color:#210203;
+		}
+	
+		ul{
+		list-style: none;
+		}
+		
+		header ul{
+		display:flex;
+		justify-content:space-evenly;
+		list-style:none;
+		paddin:10px;
+		margin:0;
+		background-color: #9AADBF;
+		text-decoration: none;
+		}
+		
+		header nav ul a{
+			display:block;
+			padding: 0 160px 0 160px;
+			color:#6D98BA;
+			text-decoration:none;
+			background-color: #9AADBF;
+		}
+	
+		header nav ul a:hover{
+			background-color: #6D98BA;
+		}
+		
+		main {
+			margin:32px 32px 0 32px,
+			width: 60%;
+		}
+		
+		body {
+		  margin: 10px;
+		  background-color: #D3B99F;
+		}
+		
+		footer {
+			display:flex;
+			flex-direction:row-reverse;
+			justify-content:center;
+			align-items:center;
+			padding:16px;
+			background-color: #9AADBF;
+			position: fixed;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			text-align: center;
+		}
+		
+		footer nav ul{
+			list-style:none;
+			padding:0;
+			text-align:right;
+		}
+		
+		footer nav a{
+			color:#F5F4B3;
+			background-color:transparent;
+			text-decoration:underline;
+		}
+		
