@@ -4,6 +4,7 @@
 	<head>
 		<title>ElRinconDeLluc</title>
 		<link rel="stylesheet" href="estilo.css" />
+		<script type="text/javascript" src="microjuego.js"></script>
 	</head>
 	
 	<body>
@@ -20,10 +21,20 @@
 		</header>
 		
 		<main>
-			<form>
-				<p><label for="field-number">Tu número:</label><input type="number" name="number" id="Id" /></p>
-				<p><label for ="field-submit"></label><input type="submit" name="submit" /></p>
-			</form>
+			<h2>Adivina el número</h2>
+			
+			<p>Adivina el número que he generado, es un número entre el <strong>1</strong> y el <strong>100</strong>
+			
+			<p id="resultado">¡Prueba suerte!</p>
+				<form>
+				
+				<p><label for="field-number">Your number:</label><input type="number" name="numero" id="field-number" /><p>
+				
+				<p><label for ="field_submit" /></p>
+				
+				<input type="button" id="field-submit"value=¡Adivina!" onClick="compara_numero();" /></p>
+				
+				</form>
 		</main>
 		
 		<footer>

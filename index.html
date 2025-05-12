@@ -7,7 +7,7 @@ dejarás el "main" en blanco ya que la utilizaremos más adelante. -->
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>ElRinconDeLluc</title> <!-- Per canviar el titol de la pestanya -->		
+		<title >ElRinconDeLluc</title> <!-- Per canviar el titol de la pestanya -->		
 		<link rel="stylesheet" href="estilo.css" />
 		
 
@@ -25,27 +25,42 @@ dejarás el "main" en blanco ya que la utilizaremos más adelante. -->
 			</nav>
 		</header>
 		<main>
-			<h1 id="indexh1"> El Rincon de Lluc </h1>
+		<section class="adivina">
+				<h1 class="clip-text"> El Rincon de Lluc </h1>
+				
+				<blockquote>
+					<p><em>Arreglar una fuente de alimentacion es dificil y lento.</em></p>
+					<p><em><strong>Lluc Omella</strong></em></p>
+				</blockquote>
+						
+				<p> Me considero una persona con mucha <strong>curiosidad</strong> por entender mas sobre el mundo que me rodea, me gusta conocer de cualquier tema.</p><!-- negreta -->
+				
+				<p> Tengo muchas <em>aficiones</em> como por ejemplo el deporte, ya sea futbol, senderismo o correr, tambien la informatica y la electronica, pero para ver mis hobbies puedes ir a <a href="hobbies.html">hobbies</a>:</p> <!-- cursiva -->
+				
+				<ul>
+					<li><details><summary>Futbol</summary>Soy muy aficionado del FC Barcelona, me gustan sus valores y su futbol.</details></li>
+					<li><details><summary>Senderismo</summary>Me gusta mucho la montaña y el senderismo ya que me gusta tenerme que estar situando en el mapa y volver a la naturaleza para tener esa sensacion de libertad que me transmite la información.</details></li>
+				</ul>
+				<ul>
+					<li><details><summary>Informatica</summary>Me gusta la informatica porque me gusta construir y inventar y con un ordenador puedo hacerlo, aunque no me gusta que en el trabajo siempre hay mucho estres y prisas, eso es lo que no me gusta de la informatica.</details></li>
+					<li><details><summary>Electronica</summary>Soy muy reciente en este mundo pero ahora estoy con una ESP 32 intentando hacer un ipod</details></li>
+				</ul>
+			</section>
 			
-			<blockquote>
-				<p><em>Se llama “ser” a lo que hace que los entes sean.</em></p>
-				<p><em><strong>Martín Heidegger</strong></em></p>
-			</blockquote>
-					
-			<p> Me considero una persona con mucha <strong>curiosidad</strong> por entender mas sobre el mundo que me rodea, me gusta conocer de cualquier tema.</p><!-- negreta -->
-			
-			<p> Me gustan <em>temas</em> como por ejemplo, pero para ver mis hobbies puedes ir a <a href="hobbies.html">hobbies</a>:</p> <!-- cursiva -->
-			
-			<ul>
-				<li> Informatica</li>
-				<li> Electronica</li>
-				<li> Senderismo</li>
-			</ul>
+		<section class="htmlnovistoenclase">
+			<form><fieldset>
+			<legend>El Barça ganara la liga esta temporada 24/25?</legend>
+			Si <input name="yes" type="radio" value="yes" />
+
+			No <input name="no" type="radio" value="no" />
+</fieldset>
+</form>
+		</section>
 		</main>
 			
 		<footer>
 	
-					<nav>
+			<nav>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="cv.html">CV</a></li>
